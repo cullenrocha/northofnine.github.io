@@ -1,0 +1,82 @@
+html { background: #111; }
+
+.site-header {
+  text-align: center;
+}
+
+.navbar {
+    background-color: tan;
+    padding: 10px 20px;
+    border-radius: 6px;
+}
+
+nav ul {
+    list-style: none;      
+    display: flex;          
+    justify-content: center;
+    gap: 20px;               
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    margin: 0;
+    padding: 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+}
+
+nav a:hover {
+    color: forestgreen;
+}
+
+body { 
+    background: #ddd;
+    width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+  font-family: "Edu QLD Hand", cursive;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.columns {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px
+  padding: 5px;
+}
+
+.column {
+  flex:1;
+  min-width: 0;
+}
+
+h1 {
+  border: none;
+  padding:5px;
+  display: center;
+  border-radius: 2px;
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal; 
+  font-variation-settings:
+    "wdth" 100; 
+}
+
+h2 { 
+  border: none;
+  padding:10px;
+  background-color: tan;
+  display: inline-block;
+  border-radius: 6px;
+ font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
