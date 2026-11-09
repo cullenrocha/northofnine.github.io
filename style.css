@@ -1,0 +1,141 @@
+html { background: skyblue; }
+
+.site-header {
+  text-align: center;
+  background-image: url(mountainlandscape3.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.navbar {
+    background-color: skyblue;
+    padding: 10px 20px;
+    border-radius: 6px;
+}
+
+nav ul {
+    list-style: none;      
+    display: flex;          
+    justify-content: center;
+    gap: 20px;               
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    margin: 0;
+    padding: 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+}
+
+nav a:hover {
+    color: silver;
+}
+
+body { 
+  background: whitesmoke;
+  width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  text-align: center;
+  background-image: url(snowytexture.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100px;
+  margin-left: auto;
+  margin-right: 0;
+}
+
+th {
+  background-color: rgb(57, 57, 154);
+  color: whitesmoke;
+  padding: 12px;
+}
+
+td {
+  background-color: skyblue;
+  color: black;
+  padding: 10px;
+}
+
+th, td {
+  border: 4px solid whitesmoke;
+  text-align: left;
+}
+
+.contact-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 30px;
+}
+
+.contact-form {
+    width: 200px;
+    text-align: left;
+}
+
+.contact-table {
+    width: 200;
+    margin-left: auto;
+}
+
+.columns {
+  background-image: url(mountainlandscape2.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+  display: flex;
+  align-items: flex-start;
+  gap: 10px
+  padding: 5px;
+}
+
+.column {
+  flex:1;
+  min-width: 0;
+}
+
+h1 {
+  border: none;
+  padding:5px;
+  display: center;
+  border-radius: 2px;
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal; 
+  font-variation-settings:
+    "wdth" 100; 
+}
+
+h2 { 
+  border: none;
+  padding:10px;
+  background-color: skyblue;
+  display: inline-block;
+  border-radius: 6px;
+ font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+
